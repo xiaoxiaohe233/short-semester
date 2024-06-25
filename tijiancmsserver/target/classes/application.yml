@@ -1,17 +1,0 @@
-server:
-  port: 8080
-  servlet:
-    context-path: /tijian
-    
-logging:  level:
-      org.springframework: debug
-      com.newsoft.tijian.mapper: debug
-      
-spring:  datasource:      driver-class-name: com.mysql.fabric.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/tijian?characterEncoding=utf-8
-      username: root
-      password: 123
-      
-mybatis:    mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.newsoft.tijian.po
-    
