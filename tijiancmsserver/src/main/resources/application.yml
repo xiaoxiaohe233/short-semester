@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tijian?characterEncoding=utf-8
     username: root
-    password: chw36510boy
+    password: 123456
     
 mybatis:
   mapper-localtions: classpath:mapper/*.xml
